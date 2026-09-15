@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+.container{
+    border-left:2.3em solid grey;
+    border-right: 2.3em solid grey;
+    height: 150vh;
+}
+header{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 13.5em; 
+}
+.head-text h2{
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    font-weight: 700;    
+}
+.head-text h3{
+    font-size: 4.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.head-text p{
+    font-size: 1.6em;
+    font-family: Arial,Helvetica, sans-serif;
+}
+.head-logo img{
+    width: 780px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    
+    background-color: darkred;
+    width: 100%;
+    padding: 1em;
+    color: white;
+    align-items: end;
+}
+.navbar a{
+    text-decoration: none;
+}
