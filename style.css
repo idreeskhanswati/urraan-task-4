@@ -1,862 +1,1088 @@
 *{
-    padding: 0;
-    margin: 0;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
-    
 }
-.container{
-    /* border-left:2.3em solid grey; */
-    /* border-right: 2.3em solid grey; */
-    height: 100vh;
+body{
+    height: 100%;
+    /* border: 30px solid grey; */
+    /* border-top: 0px; */
+    /* border-bottom: 0px; */
 }
 header{
-   display: grid;
-   grid-template-columns: 1fr 1fr;
-   gap: 13.5em; 
-}
-.head-text{
-    
-    padding-right: 1.5rem;
-}
-.head-text h2{
-    color: red;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 2em;
-    font-weight: 700;    
-}
-.head-text h3{
-    font-size: 4.2rem;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.head-text p{
-    font-size: 1.6em;
-    font-family: Arial,Helvetica, sans-serif;
-}
-.head-logo img{
-    width: 780px;
-}
-.navbar{
     display: flex;
-    justify-content:flex-end;
-    gap: 2.2em;
-    background-color: darkred;
-    width: 100%;
-    padding: 1em;
-    color: white;
-    align-items: end;
-}
-.navbar a{
-    text-decoration: none;
-    color: white;
-    font-size: 1.4em;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.section{
-    display: flex;
-    gap: 1.2rem;
-
-}
-.section-left img{
-    width: 45.4rem;
-    margin-left: 3.2rem;
-    margin-top: 3.2rem;
-}
-.section-right{
-    background-image: url(./form_bg.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 28.6rem;
-    width: 50rem;
-    margin-top: 3.2rem;
-    margin-right: 2.4rem;
-
-}
-.question{
-    display: flex;
-    gap: 2rem;
-}
-.que1{
-    background-color: darkred;
-    color: white;
-    padding: 0.5rem;
-    height: 3.5rem;
-    width: 17rem;
-}
-.que2{
-    padding-top:0.5rem;
-    font-size: 1rem;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.que2 strong{
-    font-size: 2.1rem;
-    color:rgba(0, 79, 139, 0.777);
+    gap: 250px;
 }
 .text{
-    margin-left: 1.5rem;
-    font-size: 1.4rem;
+    margin-top: 25px;
+}
+.text h1{
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 4rem;
 }
-.data-enter{
-    display: flex;
-    margin-left: 2.5rem;
-    gap: 0.5rem;
-    padding-top: 1rem;
-}
-.input{
-    font-size: 1.2rem;
+.text h2{
     font-family: Arial, Helvetica, sans-serif;
-    margin-bottom: 2rem;
-}
-.input h4 {
-    padding-bottom: 1rem;
-}
-input{
-    padding-bottom: 0.6rem;
-    margin-bottom: 0.4rem;
-    width: 13.5rem;
-}
-.confi img{
-    margin-top: 1.7rem;
-    margin-left: 0.7rem;
-    height: 4rem;
-    transform: rotate(15deg);
-    width: 13rem;
-}
-.desc{
-    padding-left:2.6rem;
-}
-.desc textarea{
-    height: 5rem;
-    width: 33rem;
-}
-.end{
-    display: flex;
-    gap: 0.3rem;
-    margin-left: 2rem;
-}
-.privacy{
-    font-size: 1.2rem;
-    font-style: italic;
-    color: grey;
-    margin-top: 1.8rem;
-}
-.batton button{
-    color: white;
-    background-color: darkred;
-    height: 3rem;
-    width: 20rem;
-    margin-top: 1rem;
-    font-size: 1.5rem;
-}
-.batton img{
-    color: white;
-    background-color: red;
-    height: 1rem;
-    width: 0.6rem;
-}
-.main{
-    display: flex;
-}
-.charged{
-    display: flex;
-    
-
-}
-.char-text{
-    margin-left: 1rem;
-    padding-left: 3.5rem;
-    margin-top: 2rem;
-    position: relative;
-}
-.char-text h3{
-    font-size: 1.8rem;
-    font-weight: 700;
-}
-.char-text h4{
-    padding-bottom: 1rem;
-    font-size: 1.3rem;
-    padding-top: 0.5rem;
-    font-family: Arial, Helvetica, sans-serif;
-    color: brown;
-}
-.char-text p{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.3rem;
-}
-.char-pic img{
-    height: 9.5rem;
-    position: relative;
-    right:2rem;    
-}
-.char-pic{
-    padding-top: 6.2rem;   
-}
-.click{
-    position: absolute;
-    top: 65rem;
-    right:65rem;
-}
-.click button{
-    background-color: brown;
-    height: 2rem;
-    width: 8rem;
-    color: white;
-    
-}
-.line{
-    position: relative;
-    bottom: 1.5rem;
-    left: 9rem;
-    height: 0.1rem;
-    width: 14rem;
-}
-.law-case{
-    border-left: 0.5px solid black;
-    border-right: 0.5px solid black; 
-    margin-top: 0.5rem;
-
-}
-.law-blog{
-    display: flex;
-    gap: 3rem;
-    border-bottom: 1px solid black;
-    padding-top: 2rem;
-    padding-left: 2rem;
-    padding-bottom: 0.5rem;
-}
-.law-text p{
-    font-size: 1rem;
-    padding-top: 1rem;
-}
-.law-pic img{
-    height: 8rem;
-}
-.law-pic1 img{
-    height: 10rem;
-
-}
-.law-pic1{
-    position: relative;
-    left: -2.5rem;
-}
-.law-text {
-    font-family: Arial, Helvetica, sans-serif;
-}
-.law-text h3{
-    font-size: 1.5rem;
-    font-weight: 700;
-}
-span{
-    color: darkred;
-}
-.btn{
-    background-color: darkred;
-    height: 2rem;
-    width: 8rem;
-    margin-left: 6rem;
-    color: white;
-
-}
-.law-text .btn img{
-    height: 10px;
-    width: 10px;
-}
-.law-text img{
-    height: 0.1rem;
-    width: 14rem;
-}
-.all-img{
-    display: flex;
-    padding: 2rem;
-    gap:0.5rem;
-}
-.im1 img{
-    height: 8rem;
-}
-.certifi-text{
-    padding-left: 1.5rem;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.certifi-text p{
-    padding-top: 1rem;
-    font-size: 1.2rem;
-}
-.btn1{
-    background-color: darkred;
-    height: 2rem;
-    width: 8rem;
-    margin-left: 11rem;
-    color: white;
-    padding-right: 1rem;
-    padding-top: 0.4rem;
-}
-.certifi-text .btn1 img{
-   height: 10px;
-    width: 10px;
-    position: relative;
-    left: 1.7rem;
-    top: -1rem;
-}
-.certifi-text img{
-   height: 0.1rem;
-   width: 14rem;
-   margin-left: 3.2rem;
-    
-}
-.line1{
-    margin-top: 2rem;
-}
-.boxes{
-    margin-top: 1rem;
-}
-.box{
-    background-color: grey;
-    height: 4rem;
-    width: 18rem;
-    margin-top: 2rem;
-    
-}
-.box h2{
-    position: relative;
-    bottom: 4rem;
-    left: 1rem;
-    color: white;
-}
-.box p{
-     position: relative;
-     bottom: 4rem;
-     left: 9rem;
-     color: white;
-}
-.menu{
-    height: 4rem;
-}
-.about{
-    margin-top: 1.5rem;
-}
-.area{
-    margin-top: 4rem;
-    margin-left: 6rem;
-    font-family: Arial, Helvetica, sans-serif;
-    color: grey;
-}
-.main1{
-    display: flex;
-}
-.blog{
-    margin-top: 1rem;
-    padding-left: 2.5rem;
-}
-.blog p{
-    font-size: 1.6rem;
-}
-.side{
-    margin-top: 1rem;
-    margin-left: 1.5rem;
-       
-}
-.side1{
-    padding: 1.5rem;
-    padding-left: 2.5rem;
-}
-.side1 h2{
-    font-family: Arial, Helvetica, sans-serif;
-}
-.side1 p{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.2rem;
-}
-.shadow {
-    height: 0.1rem;
-    width: 14rem;
-}
-.detail{
-    background-color: brown;
-    height: 2.5rem;
-    width: 8rem;
-    margin-left: 4rem;    
-}
-.detail img{
-    height:0.5rem;
-    width: 0.5rem;
-}
-.shadow1{
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 1rem;
-}
-.shadow1 img{
-    height: 9rem;
-    width: 16rem;
-    padding-left: 5rem;
-}
-.follow .shadow2{
-    height: 0.1rem;
-    width: 10rem;
-    
-   
-}
-.follow{
-    padding-left: 5rem;
-}
-.follow h2{
-    padding-left: 1.3rem;
-    font-size: 1.5rem;
-}
-.icon{
-    display: flex;
-    gap: 1.2rem;
-}
-.icon img{
-    height: 2rem;
-}
-@media screen and (max-width: 480px) {
- 
-    header{
-   display: grid;
-   grid-template-columns: 1fr 1fr;
-   gap: 6rem; 
-}
-.head-text{
-    
-    padding-right: 1.5rem;
-}
-.head-text h2{
-    color: red;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 2em;
-    font-weight: 700;    
-}
-.head-text h3{
-    font-size: 4.2rem;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.head-text p{
-    font-size: 1.6em;
-    font-family: Arial,Helvetica, sans-serif;
-}
-.head-logo img{
-    width: 800px;
-}
-    .navbar{
-    display: flex;
-    justify-content:center;
-    gap: 1.9rem;
-    background-color: darkred;
-    width: 86rem;
-    padding: 1.5rem;
-    color: white;
-    align-items: flex-end;
-}
-.navbar a{
-    text-decoration: none;
-    color: white;
-    font-size: 1.4em;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.section{
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 1.2rem;
-
-}
-.section-left img{
-    width: 79rem;
-    margin-left: 2.2rem;
-    margin-top: 2.2rem;
-}
-.section-right{
-    background-image: url(./form_bg.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 41rem;
-    width: 79rem;
-    margin-top: 3.2rem;
-    margin-right: 2.4rem;
-    margin-left: 2.2rem;
-
-}
-.question{
-    display: flex;
-    gap: 15rem;
-}
-.que1{
-    background-color: darkred;
-    color: white;
-    padding: 0.5rem;
-    height: 6.5rem;
-    width: 33rem;
-    margin-left: 1.5rem;
-}
-.que1 h1{
-    font-size: 5rem;
-    font-weight: 700;
-}
-.que2{
-    padding-top:0.5rem;
-    font-size: 2.2rem;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.que2 strong{
-    font-size: 2.6rem;
-    color:rgba(0, 79, 139, 0.777);
-}
-.text{
-    margin-left: 3.5rem;
-    font-size: 2.4rem;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.data-enter{
-    display: flex;
-    margin-left: 2.5rem;
-    gap: 1.5rem;
-    padding-top: 1rem;
-}
-.input{
-    font-size: 2.2rem;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-bottom: 2rem;
-}
-.input h4 {
-    padding-bottom: 1rem;
-}
-input{
-    padding-bottom: 0.6rem;
-    margin-bottom: 0.4rem;
-    width: 25.5rem;
-    height: 2.9rem;
-}
-.confi img{
-    margin-top: 2.7rem;
-    margin-left: 1.7rem;
-    height: 6rem;
-    transform: rotate(15deg);
-    width: 17rem;
-}
-.desc{
-    padding-left:5.6rem;
-}
-.desc textarea{
-    height: 7rem;
-    width: 50rem;
-}
-.end{
-    display: flex;
-    gap: 3.5rem;
-    margin-left: 2rem;
-}
-.privacy{
-    font-size: 2.9rem;
-    font-style: italic;
-    color: grey;
-    margin-top: 1.8rem;
-}
-.batton button{
-    color: white;
-    background-color: darkred;
-    height: 5rem;
-    width: 25rem;
-    margin-top: 1rem;
+    color: rgb(154, 0, 0);
     font-size: 1.9rem;
 }
-.batton img{
-    color: white;
-    background-color: red;
-    height: 1.2rem;
-    width: 0.8rem;
-}
-.main{
-    display: grid;
-    grid-template-columns:  1fr ;
-}
-.charged{
-    display: flex;
-    
-
-}
-.char-text{
-    margin-left: 1rem;
-    padding-left: 3.5rem;
-    margin-top: 2rem;
-    position: relative;
-}
-.char-text h3{
-    font-size: 8.8rem;
-    font-weight: 700;
-}
-.char-text h4{
-    padding-bottom: 1rem;
-    font-size: 3.9rem;
-    padding-top: 0.5rem;
-    font-family: Arial, Helvetica, sans-serif;
-    color: brown;
-}
-.char-text p{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 3.3rem;
-}
-.char-pic img{
-    height: 32.5rem;
-    position: relative;
-    right:2.5rem;    
-}
-.char-pic{
-    padding-top: 6.2rem;   
-}
-.click{
-    position: absolute;
-    top: 65rem;
-    right:65rem;
-}
-.click button{
-    background-color: brown;
-    height: 2rem;
-    width: 8rem;
-    color: white;
-    
-}
-.line{
-    position: relative;
-    bottom: 1.5rem;
-    left: 9rem;
-    height: 0.1rem;
-    width: 14rem;
-}
-.law-case{
-    border-left: 0.5px solid black;
-    border-right: 0.5px solid black; 
-    margin-top: 1.5rem;
-
-}
-.law-blog{
-    display: flex;
-    gap: 24rem;
-    border-bottom: 1px solid black;
-    padding-top: 4rem;
-    padding-left: 5rem;
-    padding-bottom: 3.5rem;
-}
-.law-text p{
-    font-size: 2.9rem;
-    padding-top: 1rem;
-}
-.law-pic img{
-    height: 19rem;
-}
-.law-pic1 img{
-    height: 25rem;
-
-}
-.law-pic1{
-    position: relative;
-    left: -2.5rem;
-}
-.law-text {
-    font-family: Arial, Helvetica, sans-serif;
-}
-.law-text h3{
-    font-size: 3.5rem;
-    font-weight: 700;
-}
-span{
-    color: darkred;
-}
-.btn{
-    background-color: darkred;
-    height: 3rem;
-    width: 15rem;
-    margin-left: 6rem;
-    color: white;
-
-}
-.law-text .btn img{
-    height: 10px;
-    width: 10px;
-}
-.law-text img{
-    height: 0.1rem;
-    width: 23rem;
-}
-
-.all-img{
-    display: flex;
-    gap:4rem;
-    padding-left: 15rem;
-}
-.im1 img{
-    height: 20rem;
-}
-.certifi-text{
-    padding-left: 17rem;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.certifi-text h2{
-    font-size: 5rem;
-}
-.certifi-text p{
-    padding-top: 1rem;
-    font-size: 3.2rem;
-}
-.btn1{
-    background-color: darkred;
-    height: 3.5rem;
-    width: 12rem;
-    margin-left: 11rem;
-    color: white;
-    padding-right: 1rem;
-    padding-top: 0.4rem;
-    font-size: 1.2rem;
-}
-.certifi-text .btn1 img{
-   height: 12px;
-    width: 15px;
-    position: relative;
-    left: 3.5rem;
-    top: -1.4rem;
-    
-    
-}
-.certifi-text img{
-   height: 0.1rem;
-   width: 21rem;
-   margin-left: 3.2rem;
-    
-}
-.line1{
-    margin-top: 3rem;
-    width: 59rem;
-}
-.boxes{
-    margin-top: 1rem;
-    margin-left:8rem;
-}
-.boxes h2{
-    font-size: 4rem;
-}
-.box{
-    background-color: grey;
-    height: 10rem;
-    width: 50rem;
-    margin-top: 2.4rem;
-    
-}
-.box h2{
-    position: relative;
-    bottom: 10rem;
-    left: 1rem;
-    color: white;
-    font-size: 3rem;
-}
-.box p{
-     position: relative;
-     bottom: 10rem;
-     left: 19rem;
-     color: white;
-     font-size: 1.9rem;
-}
-.box p img{
-    width: 1rem;
-    height: 1.5rem;
-    background-color: white;
-}
-.menu{
-    height: 10rem;
-
-}
-.about{
-    margin-top: 1.5rem;
-    font-size: 1.5rem;
-    padding-top: 2rem;
-}
-.area{
-    margin-top: 4rem;
-    margin-left: 6rem;
+.text h3{
     font-family: Arial, Helvetica, sans-serif;
     color: grey;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
-.main1{
-    display: grid;
-    grid-template-columns:1fr;
+header img{
+    height: 175px;
 }
-.blog{
-    margin-top: 1.5rem;
-    padding-left: 2.5rem;
+nav{
+    background-color: rgb(154, 0, 0);
+    height: 70px;
+    color: white;
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: end;
+    gap: 35px;
+    padding-right: 35px;
+    padding-top: 25px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
-.blog p{
-    font-size: 2rem;
+.image img{
+    height: 450px;
 }
-.blog h1{
-    font-size: 3rem;
-    font-weight: 700;
+.sec{
+    padding-top: 30px;
+    padding-left: 30px;
+    display: flex;
+    gap: 20px;
 }
-.side{
-    margin-top: 2.5rem;
-    margin-left: 3.5rem;
-       
+.form{
+    background-image: url(form_bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 650px;
 }
-.side1{
-    padding: 1.5rem;
-    padding-left: 3.5rem;
-}
-.side1 h2{
-    font-size: 4rem;
+strong{
+    color: blue;
     font-family: Arial, Helvetica, sans-serif;
 }
-.side1 p{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 2.5rem;
+.Ques{
+    display: flex;
+    gap: 70px;
 }
-.shadow {
-    height: 0.1rem;
-    width: 19rem;
-}
-.detail{
-    background-color: brown;
-    height: 3rem;
-    width:13rem;
-    margin-left: 8rem;    
-}
-.detail img{
-    height:1rem;
-    width: 1rem;
-    position: relative;
-    left: 1rem;
-}
-.side1 button{
-    font-size: 1rem;
+.ques h1{
+    background-color:  rgb(154, 0, 0);
+    padding: 10px;
     color: white;
 }
-.shadow1{
+.form p{
+    font-size: 1.6rem;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+form{
     display: flex;
-    padding-left: 6rem;
-    margin: 2rem;
+    margin-top: 20px;
+    gap: 10px;
+    font-size: 0.9rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+}
+.pri{
+    display: flex;
+    padding-top: 10px;
+    gap: 23px;
+}
+input{
+    width: 250px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+.name h2{
+    padding-bottom: 14px;
+}
+textarea{
+    width: 550px;
+    height: 80px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.btn1{
+    background-color: rgb(154, 0, 0) ;
+    height: 50px;
+    width: 320px;
+    /* margin-top: 40px; */
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    /* margin-left: 295px; */
+    margin-bottom: 10px;
+    font-size: 1.4rem;
+}
+.pri p{
+    color:grey;
+    font-size: 1.3rem;
+}
+.note{
+display: flex;
+}
+.conf img{
+    /* position: absolute; */
+    /* top: 450px; */
+    /* right: 130px; */
+    margin-left: 10px;
+    margin-top: 30px;
+    width: 220px;
+    transform: rotate(20deg);
+    opacity: 0.9;
+}
+section {
+    margin-top: 10px;
+    padding-left: 50px;
+}
+.dui p{
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.img img{
+    height: 140px;
+    margin-top: 50px;
+    position :absolute;
+    left: 24rem;
+}
+.dui h2{
+    font-size: 2rem;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    padding-bottom: 10px;
+}
+.dui h3{
+    font-size: 1.4rem;
+    font-family: arial;
+    color: rgb(154, 0, 0) ;
+    padding-bottom: 14px;
+}
+.note{
+    border-right:1px solid black ;
+}
+.btn{
+    height: 40px;
+    width: 150px;
+    margin-left: 250px;
+    background-color:  rgb(154, 0, 0);
+    color: white;
+    padding-top: 10px;
+}
+.dui img{
+    width: 280px;
+    height:2px ;
+    margin-left: 160px;
+}
+.blog{
+    display: flex;
+}
+section{
+    display: flex;
+}
+.law h2{
+    font-size: 2rem;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    padding-bottom: 10px;
+}
+.law p{
+    font-size: 1.4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 20px;
+}
+.law{
+    padding-left: 20px;
+}
+.law img{
+     width: 280px;
+    height:2px ;
+}
+.btn2{
+    height: 40px;
+    width: 150px;
+    margin-left: 80px;
+    margin-bottom: 10px;
+    background-color: rgb(154, 0, 0)  ;
+    color: white;
+}
+.law-pic img{
+    height: 120px;
+    margin-top: 30px;
+
+}
+.blog{
+    padding-bottom: 30px;
+    border-right: 1px solid black;
+    padding-right: 25px;
+    padding-left: 25px;
+    border-bottom: 1px solid black;
+}
+.cred img{
+    height: 125px;
+}
+.cred{
+    display: flex;
+    gap: 20px;
+}
+.cred-t h2{
+    font-size: 1.7rem;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    padding-bottom: 10px;
+    margin-top: 20px;
+}
+.cred-t p{
+    font-size: 1.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 20px;
+}
+.btn3{
+    height: 40px;
+    width: 150px;
+    margin-left: 80px;
+    margin-top: 0px;
+    background-color: rgb(154, 0, 0)  ;
+    color: white;
+    padding-left: 8px;
+}
+.cred-t img{
+    margin-left: 40px;
+     width: 280px;
+    height:2px ;
+
+}
+.cre{
+    padding-left: 30px;
+}
+section{
+    margin-top: 100px;
+    padding-bottom: 60px;
+}
+span{
+    color:rgb(154, 0, 0) ;
+
+}
+.side1 img{
+    position: absolute;
+    height: 80px;
+    width: 15px;
+    margin-top: 0px;
+    
+   
+    /* margin-top: 0px; */
+}
+.side1{
+    height: 80px;
+    width: 310px;
+    border: 1px solid black;
+    background-color: grey;
+    margin-bottom: 19px;
+}
+.side1 h2{
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 25px;
+    padding-bottom: 17px;
+    color: white;
+}
+.side1 h3{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 160px;
+    font-size: 1.1rem;
+    color: white;
+}
+.side{
+    margin-left: 60px;
+    padding-bottom: 0px;
+}
+.side h1{
+    font-size: 1.7rem;
+    margin-left: 0px;
+}
+.last{
+    display: flex;
+}
+.right1 img{
+    height: 2px;
+    width: 200px;
+}
+.right1 button{
+    height: 30px;
+    width: 140px;
+    margin-left: 60px;
+    margin-top: 0px;
+    background-color: rgb(154, 0, 0)  ;
+    color: white;
     
 }
-.shadow1 img{
-    height:15rem;
-    width: 22rem;
-    
-    
+.para p{
+    font-size: 1.3rem;
+    color: rgb(36, 31, 31);
+}
+.para{
+    padding: 70px;
+    padding-top: 0px;
+}
+.para h1{
+    margin-bottom: 20px;
+}
+.right1 h2{
+    font-size: 1.7rem;
+    padding-bottom: 5px;
+    color: rgb(55, 53, 53);
+}
+.right1 p{
+    font-size: 1.3rem;
+}
+.right1{
+    padding-right: 45px;
+    padding-bottom: 40px;
+}
+.logo{
+    height: 160px;
+    margin-left: 20px;
+}
+.logo1{
+    height: 160px;
+    margin-left: 40px;
+    margin-top: 20px;
 }
 .follow{
-    padding-left: 19rem;
-}
-.follow h2{
-    padding-left: 2.5rem;
-    font-size: 3.5rem;
-}
-.icon{
-    display: flex;
-    gap: 1.8rem;
+   margin-top: 20px;
+   margin-left: 20px;
+font-size: 1.9rem;
 }
 .icon img{
-    height: 7rem;
+    height: 45px;
+    margin-right: 15px;
 }
-.follow .shadow2{
+.bullet{
+    width: 100%;
+}
+.last{
+    padding-top: 45px;
+}
+.hr{
+    height: 10px;
+    width: 100%;
+}
+.btn2 img{
+    height:15px;
+    width: 15px;
+    position: relative;
+    left: 5px;
+    top: 1px;
+}
+.btn img{
+    height:15px;
+    width: 15px;
+    position: relative;
+    right:45px ;
+    bottom: 15px;
+}
+.btn3 img{
+    height:15px;
+    width: 15px;
+    position: relative;
+    right:25px ;
+    top: 1px;
+}
+.clk img{
+    height: 15px;
+    width: 15px;
+    position: relative;
+    left: 10px;
+    top: 2px;
+}
+.side1 h3 img{
+    height: 20px;
+    width: 20px;
+    margin-left: 5px;
+}
+textarea::placeholder{
+    font-size: 20px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 30px;
+}
+h2{
+    color: rgb(55, 53, 53);
+}
+.icon{
+    padding-bottom: 80px;
+}
 
-    width: 33rem;
-    height: 0.2rem;
+
+@media (max-width: 992px) {
+
+    header {
+        gap: 170px;
+    }
+
+    header img {
+        height: 131px;
+    }
+
+    .text {
+        margin-top: 8px;
+    }
+
+    .text h1 {
+        font-size: 3rem;
+    }
+
+    .text h2 {
+        font-size: 30px;
+    }
+
+    .text h3 {
+        font-size: 1rem;
+    }
+
+    nav{
+    background-color: rgb(154, 0, 0);
+    height: 50px;
+    color: white;
+    font-size: 0.9rem;
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+    padding-right: 15px;
+    padding-top: 20px;
 }
+a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+section {
+    margin-top: 5px;
+    padding-left: 150px;
+    display: inline;
+}
+    .dui{
+        padding-left: 50px;
+    }
+
+.sec{
+    display: flex;
+    flex-direction: row;
+}
+
+.form{
+    background-image: url(./form_bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 400px;
+}
+strong{
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Ques{
+    display: flex;
+    gap: 70px;
+}
+.ques h1{
+    background-color:  rgb(154, 0, 0);
+    padding: 10px;
+    color: white;
+    font-size: 0.9rem;
+}
+.form p{
+    font-size: 0.9rem;
+    padding-left: 15px;
+    padding-top: 5px;
+}
+form{
+    /* display: flex; */
+    margin-top: 20px;
+    gap: 10px;
+    font-size: 0.9rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+    width:650px;
+}
+.form{
+    background-image: url(./form_bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 400px;
+    height: 350px;
+}
+.pri{
+    /* display: flex; */
+    padding-top: 10px;
+    gap: 23px;
+}
+input{
+    width: 160px;
+    height: 15px;
+    margin-bottom: 10px;
+}
+.name h2{
+    padding-bottom: 7px;
+    font-size:0.9rem;
+}
+textarea{
+    width: 250px;
+    height: 60px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+textarea::placeholder{
+    font-size: 10px;
+}
+.btn1{
+    background-color: rgb(154, 0, 0) ;
+    height: 30px;
+    width: 160px;
+    /* margin-top: 40px; */
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    /* margin-left: 295px; */
+    margin-bottom: 1px;
+    font-size: 0.6rem;
+}
+.pri p{
+    color:grey;
+    font-size: 0.7rem;
+}
+.image img{
+    height: 350px;
+    width: 450px;
+
+    
+}
+.last{
+    display: flex;
+    flex-direction: column;
+}
+.right{
+    padding-left: 70px;
+}
+.right1{
+    padding-bottom: 50px;
+}.conf img{
+    /* position: absolute; */
+    /* top: 350px; */
+    /* right: 80px; */
+    /* width: 100px; */
+    margin-top: 20px;
+    width: 110px;
+    transform: rotate(20deg);
+    opacity: 0.9;
+}
+}
+
+@media (max-width: 768px) {
+
+    header {
+        gap: 120px;
+    }
+
+    header img {
+        height: 80px;
+    }
+
+    .text {
+        margin-top: 5px;
+    }
+
+    .text h1 {
+        font-size: 2.1rem;
+    }
+
+    .text h2 {
+        font-size: 1rem;
+    }
+
+    .text h3 {
+        font-size: 0.8rem;
+    }
+
+    nav{
+    background-color: rgb(154, 0, 0);
+    height: 50px;
+    color: white;
+    font-size: 0.7rem;
+    display: flex;
+    justify-content: end;
+    gap: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+section {
+    margin-top: 5px;
+    padding-left: 10px;
+    display: inline;
+}
+    .dui{
+        padding-left: 70px;
+        padding-bottom: 30px;
+    }
+    .dui h2{
+        font-size: 40px;
+    }
+    .dui h3{
+        font-size: 25px;
+    }
+    .dui p{
+        font-size: 25px;
+    }
+  .img img{
+    width: 100px;
+    margin-left: 40px;
+    margin-top: 90px;
+  }
+    .sec{
+    display:flex;
+flex-direction: column;
+}
+.form{
+    background-image: url(./form_bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 719px;
+}
+strong{
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Ques{
+    display: flex;
+    gap: 70px;
+}
+.ques h1{
+    background-color:  rgb(154, 0, 0);
+    padding: 10px;
+    color: white;
+}
+.form p{
+    font-size: 1.4rem;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+form{
+    /* display: flex; */
+    margin-top: 20px;
+    gap: 10px;
+    font-size: 0.9rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+    width:650px;
+}
+.form{
+    background-image: url(./form_bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 719px;
+}
+.pri{
+    /* display: flex; */
+    padding-top: 10px;
+    gap: 23px;
+}
+input{
+    width: 250px;
+    height: 20px;
+    margin-bottom: 10px;
+}
+.name h2{
+    font-size: 10px;
+    padding-bottom: 20px;
+}
+textarea{
+    width: 300px;
+    height: 50px;
+    margin-top: 0px;
+    margin-left: 40px;
+}
+.btn1{
+    background-color: rgb(154, 0, 0) ;
+    height: 25px;
+    width: 160px;
+    /* margin-top: 40px; */
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    /* margin-left: 295px; */
+    margin-bottom: 10px;
+    font-size: 0.8rem;
+}
+.pri p{
+    color:grey;
+    font-size: 0.9rem;
+}
+.image img{
+    width: 719px;
+
+    
+}
+.law h2{
+    font-size: 2.7rem;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    padding-bottom: 10px;
+}
+.law p{
+    font-size: 1.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 20px;
+}
+.law{
+    padding-left: 45px;
+
+}
+.cre{
+    padding-top: 40px;
+    padding-left: 160px;
+    padding-bottom: 40px;
+}
+.cred-t h2{
+     font-size: 2.7rem;
+}
+.cred-t p{
+    font-size: 1.5rem;
+}
+.cred img{
+    height: 140px;
+}
+.lawpic img{
+    height: 131px;
+}
+.last{
+    display: flex;
+    flex-direction: column;
+}
+.right{
+    padding-left: 70px;
+}
+.right1{
+    padding-bottom: 50px;
+}
+.side1{
+    height: 88px;
+    width: 360px;
+    border: 1px solid black;
+    background-color: grey;
+    margin-bottom: 19px;
+}
+.side1 h2{
+    font-size: 1.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 25px;
+    padding-bottom: 17px;
+    color: white;
+}
+.side1 h3{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 160px;
+    font-size: 1.5rem;
+    color: white;
+}
+.side{
+    margin-left: 80px;
+    padding-bottom: 0px;
+}
+.side h1{
+    font-size: 2.7rem;
+    margin-left: 0px;
+}
+.side1 img{
+    height: 86px;
+    width: 20px;
+    margin-bottom: 30px;
+}
+
+.conf img{
+
+    width: 200px;
+    transform: rotate(13deg);
+    opacity: 0.9;
+}
+}
+@media (max-width: 576px) {
+
+    header {
+        gap: 80px;
+    }
+
+    header img {
+        height: 60px;
+    }
+
+    .text {
+        margin-top: 5px;
+    }
+
+    .text h1 {
+        font-size: 1.7rem;
+    }
+
+    .text h2 {
+        font-size: 0.8rem;
+    }
+
+    .text h3 {
+        font-size: 0.64rem;
+    }
+
+    nav{
+    background-color: rgb(154, 0, 0);
+    height: 35px;
+    color: white;
+    font-size: 0.65rem;
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    padding-right: 0px;
+    padding-top: 10px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+section {
+    
+    display: inline;
+}
+    .dui{
+        padding-left: 30px;
+        margin-left: 20px;
+        padding-bottom: 60px;
+    }
+    .dui h2{
+        font-size: 34px;
+    }
+    .dui h3{
+        font-size: 19px;
+    }
+    .dui p{
+        font-size: 19px;
+    }
+    .img img{
+        margin-left: 0px;
+        margin-top: 50px;
+    }
+  
+    .sec{
+    display:flex;
+    padding-top: 10px;
+    padding-left: 10px;
+flex-direction: column;
+}
+.form{
+    background-image: url(./form_bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 400px;
+}
+strong{
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Ques{
+    display: flex;
+    gap: 70px;
+}
+.ques h1{
+    background-color:  rgb(154, 0, 0);
+    padding: 10px;
+    color: white;
+}
+.form p{
+    font-size: 1.1rem;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+form{
+    /* display: flex; */
+    margin-top: 20px;
+    gap: 10px;
+    font-size: 0.9rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+    width:650px;
+}
+.form{
+    background-image: url(./form_bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 500px;
+}
+.pri{
+    /* display: flex; */
+    padding-top: 10px;
+    gap: 23px;
+}
+input{
+    width: 250px;
+    height: 20px;
+    margin-bottom: 10px;
+}
+.name h2{
+    font-size: 10px;
+    padding-bottom: 20px;
+}
+textarea{
+    width: 300px;
+    height: 50px;
+    margin-top: 0px;
+    margin-left: 40px;
+}
+.btn1{
+    background-color: rgb(154, 0, 0) ;
+    height: 25px;
+    width: 160px;
+    /* margin-top: 40px; */
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    /* margin-left: 295px; */
+    margin-bottom: 10px;
+    font-size: 0.8rem;
+}
+.pri p{
+    color:grey;
+    font-size: 0.9rem;
+}
+.image img{
+    width: 500px;
+    margin-left: 0px;
+
+    
+}
+.law h2{
+    font-size: 34px;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    padding-bottom: 10px;
+}
+.law p{
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 20px;
+}
+.law{
+    padding-left: 20px;
+
+}
+.cre{
+    padding-top: 40px;
+    padding-left: 100px;
+    padding-bottom: 40px;
+}
+.cred-t h2{
+     font-size: 34px;
+}
+.cred-t p{
+    font-size: 20px;
+}
+.cred img{
+    height: 110px;
+}
+.law-pic img{
+    height: 100px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+.last{
+    display: flex;
+    flex-direction: column;
+}
+.side1{
+    height: 88px;
+    width: 360px;
+    border: 1px solid black;
+    background-color: grey;
+    margin-bottom: 19px;
+}
+.side1 h2{
+    font-size: 1.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 25px;
+    padding-bottom: 17px;
+    color: white;
+}
+.side1 h3{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 160px;
+    font-size: 1.5rem;
+    color: white;
+}
+.side{
+    margin-left: 80px;
+    padding-bottom: 0px;
+}
+.side h1{
+    font-size: 2rem;
+    margin-left: 0px;
+}
+.side1 img{
+    height: 86px;
+    width: 20px;
+    margin-bottom: 30px;
+}
+
+.conf img{
+
+    width: 150px;
+    transform: rotate(13deg);
+    opacity: 0.9;
+}
+.right1 h2{
+    font-size: 34px;
+    padding-bottom: 5px;
+    color: rgb(55, 53, 53);
+}
+.right1 p{
+    font-size: 24px;
+}
+.right1{
+    padding-right: 65px;
+    padding-bottom: 40px;
+    margin-bottom: 30px;
+}
+.logo{
+    height: 130px;
+    margin-left: 30px;
+}
+.logo1{
+    height: 130px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.follow{
+   margin-top: 20px;
+   margin-left: 30px;
+font-size: 1.9rem;
+}
+.icon img{
+    height: 45px;
+    margin-right: 15px;
+}
+.right{
+    padding-left: 150px;
+}
+
 }
