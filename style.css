@@ -164,9 +164,8 @@ input{
 }
 .char-text{
     margin-left: 1rem;
-    padding-left: 3.5rem;
     margin-top: 2rem;
-    position: relative;
+    
 }
 .char-text h3{
     font-size: 1.8rem;
@@ -182,12 +181,13 @@ input{
     font-size: 1.3rem;
 }
 .char-pic img{
-    width: 130%;
+    width: 100%;
     right:2rem;    
 }
 .char-pic{
     padding-top: 4.2rem;
-    padding-right: 2rem;   
+    padding-right: 2rem; 
+    width: 17%;  
 }
 
 .click button{
@@ -237,7 +237,7 @@ input{
 }
 
 .law-text h3{
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     font-weight: 700;
 }
 span{
@@ -275,6 +275,9 @@ span{
 }
 .certifi-text{
     padding-left: 1.5rem;
+}
+.certifi-text h2{
+    font-size: 1.8rem;
 }
 .certifi-text p{
     padding-top: 1rem;
@@ -374,7 +377,8 @@ span{
     background-color: brown;
     height: 2rem;
     width: 8rem;
-    margin-left: 0rem;    
+    margin-left: 0rem;
+    color: white;    
 }
 .detail img{
     height:0.5rem;
@@ -388,12 +392,12 @@ span{
 }
 .shadow1 img{
     
-    width: 70%;
+    width: 55%;
     padding-left: 5rem;
 }
 .follow .shadow2{
     height: 0.1rem;
-    width: 22rem;
+    width: 14rem;
     
    
 }
@@ -408,11 +412,12 @@ span{
 .icon{
     display: flex;
     gap: 1.2rem;
-    width: 100%;
+    width: 70%;
+    padding-right: 2rem;
 
 }
 .icon img{
-    width: 100%;
+    width: 70%;
 }
 @media (max-width:1400px) { 
       html, body{
@@ -582,13 +587,12 @@ input{
     width: 33%;
 }
 .char-text{
-    margin-left: 1rem;
-    padding-left: 1rem;
+    margin-left: 1rem;    
     margin-top: 2rem;
-    position: relative;
+
 }
 .char-text h3{
-    font-size: 30px;
+    font-size: 1.6rem;
     font-weight: 700;
 }
 .char-text h4{
@@ -601,14 +605,15 @@ input{
     font-size: 18px;
 }
 .char-pic img{
-    width: 150%;
+    width: 100%;
     margin-top: -2rem;
     
         
 }
 .char-pic{
+    width:auto;
     padding-top: 6.2rem;
-    margin-right: 4rem;   
+    margin-right: 2.5rem;
 }
 
 .click button{
@@ -652,7 +657,7 @@ input{
     width: 100%;
 }
 .law-pic img{
-    width: 90%;
+    width: 80%;
 }
 .law-pic1{
     width: 100%;
@@ -661,10 +666,7 @@ input{
     width: 100%;
 
 }
-.law-pic1{
-    position: relative;
-    left: -2.5rem;
-}
+
 .law-text h3{
     font-size: 30px;
     font-weight: 700;
@@ -707,6 +709,7 @@ span{
 
 .im1 img{
     width: 100%;
+    
 }
 .certifi-text{
     padding-left: 16px;
@@ -826,12 +829,12 @@ span{
     gap: 1rem;
 }
 .shadow1 img{
-    width: 70%;
+    width: 50%;
     margin-right: 15rem;
 }
 .follow .shadow2{
     height: 0.1rem;
-    width: 22rem;
+    width: 11rem;
     
    
 }
@@ -848,10 +851,10 @@ span{
     margin-right: 5rem;
 }
 .icon{
-    width: 100%;
+    width: 50%;
 }
 .icon img{
-    width: 100%;
+    width: 50%;
     
 } 
 
@@ -1025,33 +1028,31 @@ input{
     width: 33%;
 }
 .char-text{
-    margin-left: 1rem;
+    margin-left: 0rem;
     padding-left: 1rem;
     margin-top: 2rem;
-    position: relative;
+
 }
 .char-text h3{
     font-size: 23px;
-    font-weight: 700;
 }
 .char-text h4{
     padding-bottom: 1rem;
     font-size: 22px;
     padding-top: 0.5rem;
     color: brown;
-    font-weight: 800;
+
 }
 .char-text p{
     font-size: 16px;
 }
 .char-pic img{
-    width: 150%;
-    margin-top: -2rem;
     
-        
+    margin-top: -2rem;       
 }
 .char-pic{
-    padding-top: 6.2rem;   
+    padding-top: 6.2rem;
+    
 }
 
 .click button{
@@ -1081,7 +1082,7 @@ input{
 }
 .law-blog{
     display: flex;
-    gap: 3rem;
+    gap: 1.5rem;
     border-bottom: 1px solid black;
     padding-top: 1.5rem;
     padding-left: 1rem;
@@ -1098,10 +1099,10 @@ input{
     width: 100%;
 }
 .law-pic1{
-    width: 100%;
+width: 400px;  
 }
 .law-pic1 img{
-    width: 130%;
+  max-width: 100%;
 
 }
 
@@ -1195,12 +1196,14 @@ span{
     bottom: 4rem;
     left: 1rem;
     color: white;
+    font-size: 1.1rem;
 }
 .box p{
      position: relative;
      bottom: 4rem;
-     left: 9rem;
+     left: 6rem;
      color: white;
+     font-size: 0.9rem;
 }
 .menu{
     height: 4rem;
@@ -1267,12 +1270,12 @@ span{
 }
 .shadow1 img{
     
-    width: 70%;
+    width: 50%;
     padding-left: 5rem;
 }
 .follow .shadow2{
     height: 0.1rem;
-    width: 22rem;
+    width: 11rem;
     
    
 }
@@ -1286,10 +1289,10 @@ span{
 .icon{
     display: flex;
     gap: 1.2rem;
-    width: 100%;
+    width: 50%;
 }
 .icon img{
-    width: 100%;
+    width: 50%;
 } 
 
     
@@ -1475,18 +1478,17 @@ input{
     width: 100%;
 }
 .char-text{
-    margin-left: 1rem;
-    padding-left: 1rem;
+
     margin-top: 2rem;
-    position: relative;
+
 }
 .char-text h3{
-    font-size: 2rem;
+    font-size: 1.7rem;
     font-weight: 700;
 }
 .char-text h4{
     padding-bottom: 1rem;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     padding-top: 0.5rem;
     color: brown;
 }
@@ -1501,8 +1503,9 @@ input{
         
 }
 .char-pic{
-    padding-top: 9.2rem; 
-    margin-left: -5rem;  
+    
+    padding-top: 6rem; 
+    margin-left: -2rem;  
 }
 
 .click button{
@@ -1590,10 +1593,10 @@ span{
 }
 .certifi{
     position: relative;
-    top: 5rem;
+    top: 0rem;
     left: 15rem;
-    width: 50%;
-    grid-column: span 2;
+    width: 100%;
+
     
 }
 .certifi-text h2{
@@ -1730,7 +1733,7 @@ span{
 }
 .shadow1 img{
     
-    width: 100%;
+    width: 70%;
     padding-left: 4rem;
 
     
@@ -1742,7 +1745,7 @@ span{
    
 }
 .follow{
-    padding-left: 5rem;
+    padding-left: 0rem;
 }
 .follow h2{
     padding-left: 1.3rem;
@@ -1751,10 +1754,10 @@ span{
 .icon{
     display: flex;
     gap: 1.2rem;
-    width: 100%;
+    width: 50%;
 }
 .icon img{
-    width: 100%;
+    width: 50%;
 } }
 @media (max-width:768px) {
 
@@ -1930,13 +1933,13 @@ input{
     width: 100%;
 }
 .char-text{
-    margin-left: 1rem;
-    padding-left: 1rem;
+
+    
     margin-top: 2rem;
-    position: relative;
+
 }
 .char-text h3{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 700;
 }
 .char-text h4{
@@ -1946,7 +1949,7 @@ input{
     color: brown;
 }
 .char-text p{
-    font-size: 1rem;
+    font-size: 0.9rem;
 }
 
 .char-pic img{
@@ -2040,12 +2043,11 @@ span{
     font-size: 0.6rem;
 }
 .certifi{ 
-    position: relative;
+    
     top:0rem;
     left: 8rem;
     padding-top: 4rem;
-    /* grid-column: span 2; */
-    width: 50%;
+    width: 100%;
     
  } 
 .certifi-text h2{
@@ -2062,7 +2064,6 @@ span{
 }
 .im1 img{
     width: 100%;
-    height: 122px;
     
 }
 .certifi-text{
@@ -2191,7 +2192,7 @@ span{
     
 }
 .shadow1 img{
-    width: 30%;
+    width: 20%;
     padding: 0px;
     margin: 0px;
     
@@ -2213,10 +2214,10 @@ span{
    
     display: flex;
     gap: 1.2rem;
-    
+    width: 50%;
 }
 .icon img{
-width: 10%;
+width: 50%;
 } }
 
 @media (max-width:576px) {
@@ -2392,7 +2393,7 @@ input{
     padding: 0px;
 }
 .char-text h3{
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     font-weight: 700;
 }
 .char-text h4{
@@ -2406,8 +2407,8 @@ input{
 }
 .char-pic img{
     width: 100%;
-    position: relative;
-    right:0rem;    
+    
+        
 }
 .char-pic{
     padding-top: 6.2rem;   
@@ -2459,7 +2460,7 @@ input{
 }
 
 .law-text h3{
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 700;
 }
 span{
@@ -2513,7 +2514,7 @@ span{
     padding-right:9rem;
 }
 .certifi-text h2{
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 .btn1{
     background-color: darkred;
@@ -2644,9 +2645,7 @@ span{
 }
 .icon{
     display: flex;
-    gap: 1.2rem;
-    
-    
+    gap: 1.2rem;    
 }
 }    
     
